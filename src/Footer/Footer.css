@@ -1,0 +1,63 @@
+.logof{
+    width: 100%;
+   height: 40vh;
+}.logof img{
+    width: 100%;
+    height: inherit;
+}.footertext{
+    /* color: white; */
+    font-family: 'PT Serif', serif;
+    font-weight: 600;
+    font-size: 1rem;
+    width: 100%;
+    text-align: justify;
+    color: white;
+
+}.brandicons{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    justify-content: space-between;
+}.contant1{
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 1rem;
+   
+    /* padding-right: 5rem; */
+    height: 50vh;
+     font-family: 'Bebas Neue', sans-serif;;
+    /* background-color:  #262626; */
+}.footerheader1{
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+}.footcol{
+    background-color: #434343 ;
+}.footer-text-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     /* border-right: 2px solid black; */
+} .borderright{
+border-right: 2px solid black;
+}
+.footerheader1 a{
+    color: white;
+    text-decoration: none;
+    border-bottom: none;
+}.footerheader a{
+    color: #279B48;
+    border-bottom: none;
+    text-decoration: none;
+}.footerheader a:hover,.footerheader1 a:hover{
+    color: #81C64B;
+    border-bottom: none;
+}
