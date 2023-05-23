@@ -1,0 +1,98 @@
+.aboutpart1{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+color: white;
+width: 100%;
+height: 100vh;
+justify-content: center;
+
+}.aboutpart1 p{
+    font-weight: 500;
+    font-size: 4rem;
+    text-transform:capitalize;
+    font-family: 'Bebas Neue', sans-serif;
+}.aboutpart1 button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+card,.aboutcardimd{
+    width: inherit;
+}.aboutcardimd img{
+   width: 100%;
+   border-radius: 2px;
+}.about2btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}#row{
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
+    transition: 0.2s;
+    margin: 0;
+    padding: 0;
+}.part2text{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: flex-end;
+    height:293px;
+    overflow-y: hidden;
+}.part2textchind{
+    background:	rgba(0,128,0,0.5);
+    margin-bottom: 0;
+    color: white;
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateY(100px);
+font-weight: normal;
+font-size:1rem;
+text-align: justify;
+
+}.card:hover  .part2textchind{
+    opacity: 1;
+    transform: translateY(-1px);
+
+}.card{
+    border: none;
+}.part2btn{
+    width: 100%;
+justify-content: center;
+display: flex;
+flex-direction: row;
+gap: 0px;
+margin-top: 2rem;
+}.part2btn input{
+    width: 3%;
+    height:3vh ;
+}
+.part2container{
+   background-color:  #333333;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    color:white;
+    font-size: 6rem;
+    text-transform: capitalize;
+    font-family: 'PT Serif', serif;
+}.part2container .row p{
+    background-color: #4CAF50;
+    height: 5px;
+    width: 100%;
+}

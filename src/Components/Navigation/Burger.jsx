@@ -33,7 +33,7 @@ setMovey(e.pageY)
           {
 NavArray.map((items)=>{
   return(
-    <li className={size?'li':"visiblity"} ><NavLink activeClassName="actived" className={size?"a":"b"} to={items}>{items.name}</NavLink> </li>
+    <li className={size?'li':"visiblity"} ><NavLink activeClassName="actived" className={size?"a ":"b"} to={items.to}>{items.name}</NavLink> </li>
   )
 })
           }

@@ -7,8 +7,8 @@ function HomePart7() {
     AOS.init();
   }, [])
   return (
-    <div className="container-fluid mt-5 mb-5">
-        <div className="row mb-5" data-aos="zoom-in-up">   <h1 className='pride2'> <p>Ceo Address</p> <p className='line2' ></p></h1></div>
+    <div className="container-fluid mt-5 ">
+        <div className="row mb-5" data-aos="zoom-in-up">   <h1 className='pride2'> <p>CEO Address</p> <p className='line2' ></p></h1></div>
         <div className="row">
             <div className="col-sm-6"  data-aos="fade-left"> <div className="part6img"><img src={img} alt="ceo" /></div> </div>
             <div className="col-sm-6"  data-aos="fade-right"> <div className="part4content" id='center'>
