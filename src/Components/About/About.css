@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
 align-items: center;
+justify-content: center;
 color: white;
 width: 100%;
 height: 100vh;
@@ -24,8 +25,12 @@ justify-content: center;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
+}.card{
+    overflow: hidden;
+}.img_part3 img:hover{
+    transform: scale(1.5)
 }
-card,.aboutcardimd{
+.card,.aboutcardimd{
     width: inherit;
 }.aboutcardimd img{
    width: 100%;
@@ -95,4 +100,124 @@ margin-top: 2rem;
     background-color: #4CAF50;
     height: 5px;
     width: 100%;
+}.AboutPart3{
+    width: 100%;
+    /* height: 110vh; */
+    background-color: #353839;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+    
+}.card_part3{
+    display: flex;
+    flex-direction: column;
+}
+.img_part3{
+width: 100%;
+overflow: hidden;
+}.img_part3 img{
+    transition: 1s;
+    width: 100%;
+}
+.part3row{
+    width: 100%;
+}.btn_Part3{
+    background-color: #4CAF50;
+    color: white;
+    width: fit-content;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    height: fit-content;
+    position: absolute;
+    top: 81%;
+}.part3_text{
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-family: 'PT Serif', serif;
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}.part4container{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../Asserts/pexels-jonas-ferlin-1845269.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+
+}.cardpart4{
+    background: rgba(255,255,255,0.5);
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 50%;
+}.cardpart4 h1{
+    color: #4CAF50;
+}
+.card4text{
+    text-align: justify;
+    font-family: 'PT Serif', serif;
+}.Ceo_Paragraoh{
+display: flex;
+flex-direction: column;
+gap: 1px;
+}
+.Ceo_line{
+    line-height: 1px;
+    width: 10%;
+    height: 5px;
+    background-color: #4CAF50;
+}.AboutPart5{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../Asserts/succress.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-end;
+}.About5text{
+    background-color: rgba(0,128,0,0.5);
+    color: black;
+    width: 60%;
+    text-align: justify;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+font-size: 2rem;
+font-family: 'PT Serif', serif;
+/* font-weight: 2rem; */
+}.AboutPart5a{
+   padding-top: 0.5rem;
+   padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #9A2205;
+    width: fit-content;
+}.AboutPart5a a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}.About5text2{
+    font-size:1.5rem;
+}.part3_text :nth-child(2){
+    height: 5px;
+    width: 35%;
+    position: relative;
+    bottom: 1rem;
+    background-color: #4CAF50;
 }

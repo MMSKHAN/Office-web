@@ -12,10 +12,6 @@ const NavArray=[
         to:"/Services"
     },
     {
-        name:"Life at ItZoon",
-        to:"/Life"
-    },
-    {
         name:"Careers",
         to:"/Careers"
     },
@@ -26,10 +22,6 @@ const NavArray=[
     {
         name:"Contact us",
         to:"/Contact"
-    },
-    {
-        name:"Sign in",
-        to:"/Login"
     },
 ]
 export default NavArray
